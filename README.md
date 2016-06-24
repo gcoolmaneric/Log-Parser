@@ -16,14 +16,14 @@ How to compile log-parser ?
    
   `cd  log-parser` 
    
-   ` vim  Log-Parser_KPI-Web/log-parser/nbproject/Makefile-Release.mk `
+   `vim nbproject/Makefile-impl.mk`
    
    ` DEFAULTCONF=Release`
     
     
     Add -I/usr/local/include -L/usr/local/lib -lcurl
     
-    `vim nbproject/Makefile-impl.mk`
+   ` vim  Log-Parser_KPI-Web/log-parser/nbproject/Makefile-Release.mk `
    
    `${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/testcodec___1 ${OBJECTFILES} ${LDLIBSOPTIONS} -I/usr/local/include -L/usr/local/lib -lcurl`
     
